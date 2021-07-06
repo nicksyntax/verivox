@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Verivox.Business.Interfaces\Verivox.Business.Interfaces.csproj" />
+    <ProjectReference Include="..\Verivox.BusinessModels\Verivox.BusinessModels.csproj" />
+    <ProjectReference Include="..\Verivox.Entities\Verivox.Entities.csproj" />
+    <ProjectReference Include="..\Verivox.Repository.Interfaces\Verivox.Repository.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>

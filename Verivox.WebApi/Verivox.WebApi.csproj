@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Verivox.Business.Interfaces\Verivox.Business.Interfaces.csproj" />
+    <ProjectReference Include="..\Verivox.Business\Verivox.Business.csproj" />
+    <ProjectReference Include="..\Verivox.Repository.Interfaces\Verivox.Repository.Interfaces.csproj" />
+    <ProjectReference Include="..\Verivox.Repository\Verivox.Repository.csproj" />
+  </ItemGroup>
+
+</Project>
